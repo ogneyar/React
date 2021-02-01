@@ -8,7 +8,9 @@ export const Foo = () => {
 
 
 <div className="Foo">
+
     <h1>Foo Page</h1>
+    
 </div>
 
 
