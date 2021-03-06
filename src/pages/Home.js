@@ -11,9 +11,9 @@ export const Home = () => {
                     
                 <NavLink 
                     className="NavLink" 
-                    to="/tutorials"
+                    to="/tutorials/main"
                 >
-                    isTutorials
+                    Tutorials
                 </NavLink>
 
                 <img src={logo} className="Home-logo" alt="logo" />
