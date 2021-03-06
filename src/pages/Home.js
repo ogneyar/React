@@ -1,10 +1,31 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import './Home.css'
+import logo from '../logo.svg';
 
 export const Home = () => {
     return (
-        <>
-            <h1>Home Page</h1>
-        </>
+
+        <div className="Home">
+            <header className="Home-header" id="header">
+                    
+                <NavLink 
+                    className="NavLink" 
+                    to="/tutorials"
+                >
+                    isTutorials
+                </NavLink>
+
+                <img src={logo} className="Home-logo" alt="logo" />
+
+                <h1 style={{textDecoration: "underline wavy"}}>
+                    Home Page
+                </h1>
+                
+            </header>
+
+        </div>
+
     );
 }
 

@@ -1,0 +1,11 @@
+#tutorial {
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tutorial-link {
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+}
