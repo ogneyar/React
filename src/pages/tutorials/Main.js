@@ -1,10 +1,11 @@
 import React from 'react'
+import './Main.css'
 
 const Main = () => {
 
     return (
-        <div id="Test">
-            This main Tutorial page
+        <div id="Main">
+            <h1 className="h1">This main Tutorial page</h1>
         </div>
     )
 }
