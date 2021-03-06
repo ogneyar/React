@@ -1,12 +1,10 @@
 import React from 'react'
 import './Test.css'
 
-const Test2 = () => {
-    return (
-        <div>
-            Test
-        </div>
-    )
-}
+const Test = () => (
+    <div>
+        Testing page
+    </div>
+)
 
-export default Test2
+export default Test

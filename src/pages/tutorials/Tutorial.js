@@ -12,17 +12,14 @@ const Tutorial = () => {
             <div className="tutorial-link">                
                 <NavLink className="NavLink" to="/">Главная</NavLink>
                 <NavLink className="NavLink" to="/tutorials/main">Tutorial</NavLink>
-                <NavLink className="NavLink" to="/tutorials/test">Test</NavLink>
-                
+                <NavLink className="NavLink" to="/tutorials/test">Test</NavLink>                
             </div>
             
-            <div id="tutorial">
-            
+            <div id="tutorial">            
                 <Switch>
                     <Route component={ Main } path="/tutorials/main" />
                     <Route component={ Test } path="/tutorials/test" />
                 </Switch>
-
             </div>
         </div>
     )

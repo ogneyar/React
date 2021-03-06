@@ -4,7 +4,7 @@ const Main = () => {
 
     return (
         <div id="Test">
-            Tutorial
+            This main Tutorial page
         </div>
     )
 }
