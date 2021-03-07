@@ -1,15 +1,15 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './transformOnScroll.css'
 
 const transformOnScroll = () => {
-         
+    
     window.addEventListener("scroll", () => {
         const SkewedOne = document.querySelector('.SkewedOne')
         const SkewedTwo = document.querySelector('.SkewedTwo')
         const value1 = -15 + window.scrollY / 55
         const value2 = 15 + window.scrollY / -55
-        SkewedOne.style.transform = `skewY(${value1}deg)`
-        SkewedTwo.style.transform = `skewY(${value2}deg)`
+        if (SkewedOne) SkewedOne.style.transform = `skewY(${value1}deg)`
+        if (SkewedTwo) SkewedTwo.style.transform = `skewY(${value2}deg)`
     })
 
     return (
