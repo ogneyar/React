@@ -11,6 +11,9 @@
   @media (prefers-reduced-motion: no-preference) {
     .Home-logo {
       animation: Home-logo-spin infinite 20s linear;
+      -o-animation: Home-logo-spin infinite 20s linear;
+      -webkit-animation: Home-logo-spin infinite 20s linear;
+      -moz-animation: Home-logo-spin infinite 20s linear;
     }
   }
   
@@ -26,11 +29,17 @@
   }
   
   @keyframes Home-logo-spin {
-    from {
+    0% {
       transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
     }
-    to {
+    100% {
       transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
     }
   }
   
